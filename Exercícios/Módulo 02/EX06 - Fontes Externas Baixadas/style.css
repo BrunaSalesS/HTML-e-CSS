@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Little Bird';
+    src: url('littlebird.ttf') format(truetype);
+    /* Tipos de format():
+        opentype (otf)
+        truetyoe (ttf)
+        embedded-opentype
+        truetype-aat (Apple Avanced Typografy)
+        svg
+    */
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Little Bird';
+}
+h1 {
+    font-family: 'Little Bird';
+    font-size: 3em;
+}

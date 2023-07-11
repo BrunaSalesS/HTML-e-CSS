@@ -1,0 +1,43 @@
+@charset "UTF-8";
+h1 { /*box-level*/
+    background-color: lightblue;
+    height: 300px;
+    width: 300px;
+    /* simplificando:
+    border-width: 10px;
+    border-style: solid;
+    border-color: aqua; */
+    border: 10px solid aqua;
+    /* simplificando: 
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+    /* se forem todas iguais: 
+    padding: 10px 10px 10px 10px; */
+    padding: 10px;
+    /* simplificando: 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; */
+    /* se forem todas iguais e centralizada:
+    /* margin: 10px 10px 10px 10px; */
+    margin: 10px auto;
+    /* simplificando: 
+    outline-width: 10px;
+    outline-style: dashed;
+    outline-color: blue; */
+    outline: 5px dashed blue;
+}
+a { /*inline-level */
+    background-color: lightblue;
+    /* simplificando: 
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(32, 188, 235); */
+    border: 2px solid blueviolet; 
+    padding: 1px 20px;
+    /* 1px (cima e baixo) 20px (direita e esquerda) */
+    margin: 2px auto 20px auto;
+}
