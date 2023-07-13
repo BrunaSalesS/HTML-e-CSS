@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 02</title>
+    <!--Tabelas-->
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 200px;
+            height: 200px;
+            border-collapse: collapse;
+            border: 5px dashed red;
+        }
+        #l1, #l3 {
+            background-color: aqua;
+        }
+        #l2, #l4 {
+            background-color: aquamarine;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .destaque {
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Minha Primeira Tabela</h1>
+    <!--
+        Hierarquia de Tabelas Simples
+        table = tabela
+        table row = linha da tabela
+        table header = cabeçalho da tabela
+        table data = dado da tabela
+    -->
+    <table>
+        <tr id="l1"> <!--Primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr id="l2"> <!--Segunda linha-->
+            <td>A2</td>
+            <td class="destaque">B2</td>
+            <td>C2</td>
+        </tr>
+        <tr id="l3"> <!--Terceira linha-->
+            <td>A3</td>
+            <td class="destaque">B3</td>
+            <td>C3</td>
+        </tr>
+        <tr id="l4"> <!--Quarta linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
