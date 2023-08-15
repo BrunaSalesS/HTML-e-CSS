@@ -46,7 +46,8 @@ section#redes-sociais {
 }
 
 section#redes-sociais img {
-    top: 10px;
+    position: relative;
+    top: 35px;
     width: 80px;
     height: 80px;
     margin: 15px;
