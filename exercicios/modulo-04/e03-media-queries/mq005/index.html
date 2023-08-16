@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries 05</title>
+    <!-- Exemplo MQ -->
+    <link rel="stylesheet" href="estilo/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+   <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="imenu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+   </header>
+   <main>
+        <article>
+            <h2>Testanto Media Query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis saepe reiciendis doloremque consequatur rem vel, aspernatur perspiciatis perferendis omnis fugiat laboriosam possimus laborum at fuga dolore labore magni quidem asperiores?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam maxime quaerat molestias quam suscipit natus sunt vero? Aut temporibus tempora reprehenderit praesentium, reiciendis inventore ullam quasi vitae deleniti voluptates?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia aperiam omnis architecto doloribus autem iusto totam distinctio, fuga voluptatibus provident. Commodi amet laborum animi fugit perspiciatis obcaecati, doloribus vitae.</p>
+        </article>
+   </main> 
+   <script>
+        function clickMenu () {
+            if (imenu.style.display == 'block') {
+                imenu.style.display = 'none'
+            }
+            else {
+                imenu.style.display = 'block'
+            }
+        }
+   </script>
+</body>
+</html>
